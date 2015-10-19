@@ -1,0 +1,22 @@
+
+body {
+  background: white;
+  font-family: 'oswald-regular', helvetica, sans-serif, arial;
+}
+
+header, footer {
+  height: $header-height;
+  width: 100%;
+  background: lightseagreen;
+}
+
+.content {
+min-height: calc(100% - 200px);
+  width: 100%;
+}
+
+.demo {
+  width: 100px;
+  height: 100px;
+  background: lightseagreen;
+}
