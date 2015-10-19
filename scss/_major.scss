@@ -7,16 +7,23 @@ body {
 header, footer {
   height: $header-height;
   width: 100%;
-  background: lightseagreen;
+  background: radial-gradient(closest-corner at 60% 55%, #00BCD4, #00b8cf);
+}
+
+header {
+  box-shadow: 0 2px 5px transparentize($black, .8);
+  position: fixed;
+  top: 0;
 }
 
 .content {
-min-height: calc(100% - 200px);
+  margin-top: 100px;
+  min-height: calc(100% - 200px);
   width: 100%;
 }
 
 .demo {
   width: 100px;
   height: 100px;
-  background: lightseagreen;
+  background: radial-gradient(closest-corner at 60% 55%, #00BCD4, #00b8cf);
 }
