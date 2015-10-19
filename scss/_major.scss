@@ -1,7 +1,8 @@
 
 body {
   background: white;
-  font-family: 'oswald-regular', helvetica, sans-serif, arial;
+  font-family: 'Britannic Bold','oswald-regular', helvetica, sans-serif, arial;
+  position: relative;
 }
 
 header, footer {
@@ -14,6 +15,11 @@ header {
   box-shadow: 0 2px 5px transparentize($black, .8);
   position: fixed;
   top: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
 
 .content {

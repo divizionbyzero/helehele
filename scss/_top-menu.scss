@@ -14,13 +14,11 @@
       color: transparentize(white, 0.05);
       text-transform: uppercase;
       font-size: 1.2rem;
-      font-weight: bold;
     }
     &:hover {
       .top-menu_item__link {
-        -webkit-animation: button-bounce .5s ease-out;
-        -o-animation: button-bounce .5s ease-out;
         animation: button-bounce .5s ease-out;
+        -moz-animation-iteration-count: infinite;
       }
     }
   }
